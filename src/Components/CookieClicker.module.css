@@ -1,0 +1,13 @@
+.CookieCounter {
+  color: brown;
+}
+
+.CookieButton {
+  visibility: hidden;
+}
+
+.CookieClicker {
+  max-width: 400px;
+  max-height: 400px;
+  visibility: visible;
+}
