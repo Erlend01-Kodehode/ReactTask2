@@ -15,7 +15,7 @@ function CookieClicker() {
       </h2>
       <button onClick={handleIncrement} className={styles.CookieButton}>
         <img
-          src="./public/images/cookie-1.png"
+          src="./images/cookie-1.png"
           alt="Cookie"
           className={styles.CookieClicker}
         />
