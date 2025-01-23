@@ -1,5 +1,14 @@
+.CookieContainer {
+  align-items: center;
+  margin: 0px 2px 0px 2px;
+}
+
 .CookieCounter {
   color: brown;
+}
+
+.CookieCounter::selection {
+  color: greenyellow;
 }
 
 .CookieButton {
@@ -10,4 +19,11 @@
   max-width: 400px;
   max-height: 400px;
   visibility: visible;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.CookieClicker:active {
+  filter: saturate(150%);
+  transition: none;
 }

@@ -5,11 +5,11 @@ import UsersComp from "./Components/UsersComp";
 
 function App() {
   return (
-    <>
+    <div className="Row">
       <CookieClicker />
       <CatFacts />
       <UsersComp />
-    </>
+    </div>
   );
 }
 

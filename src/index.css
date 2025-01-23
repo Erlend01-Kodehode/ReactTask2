@@ -2,8 +2,25 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: brown;
+  color: wheat;
+}
+
+html {
+  background-color: wheat;
+}
+
 div {
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.Row {
+  flex-direction: row;
 }

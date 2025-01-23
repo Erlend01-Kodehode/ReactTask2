@@ -1,0 +1,9 @@
+.FactsContainer {
+  margin: 0px 2px 0px 2px;
+  align-items: center;
+}
+
+.FactsLoading {
+  font-size: 2em;
+  font-weight: bold;
+}

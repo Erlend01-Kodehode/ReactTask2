@@ -8,9 +8,9 @@ function CookieClicker() {
     setCount((val) => val + 1);
   }
   return (
-    <div>
+    <div className={styles.CookieContainer}>
       <h2>
-        You have baked <span className={styles.CookieCounter}>{count}</span>{" "}
+        You've baked <span className={styles.CookieCounter}>{count}</span>{" "}
         Cookies
       </h2>
       <button onClick={handleIncrement} className={styles.CookieButton}>
