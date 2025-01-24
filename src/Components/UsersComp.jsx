@@ -1,6 +1,6 @@
 import { mockData } from "../data/data";
 import { useState } from "react";
-console.log(mockData);
+import styles from "./UsersComp.module.css";
 
 function UsersComp() {
   const [data, setData] = useState(mockData);
@@ -21,7 +21,7 @@ function UsersComp() {
   }
 
   return (
-    <div>
+    <div className={styles.UsersCompContainer}>
       <ul>
         {data.map((person, i) => {
           return (

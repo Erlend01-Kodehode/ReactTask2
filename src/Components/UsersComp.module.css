@@ -1,11 +1,6 @@
-.FactsContainer {
+.UsersCompContainer {
   margin: 0px 2px 0px 2px;
   align-items: center;
   border: solid grey 2px;
   background-color: wheat;
-}
-
-.FactsLoading {
-  font-size: 2em;
-  font-weight: bold;
 }
